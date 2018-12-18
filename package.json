@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack",
     "server": "webpack-dev-server --open"
   },
   "keywords": [],
@@ -31,9 +32,10 @@
     "style-loader": "^0.23.1",
     "url-loader": "^1.1.2",
     "webpack": "^3.6.0",
-    "webpack-dev-server": "^2.8.2"
+    "webpack-dev-server": "^2.8.2",
+    "html-withimg-loader": "^0.1.16"
   },
   "dependencies": {
-    "html-withimg-loader": "^0.1.16"
+    
   }
 }
